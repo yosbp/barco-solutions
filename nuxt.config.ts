@@ -36,14 +36,6 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap",
         },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap",
-        },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap",
-        }
       ],
       script: [
         { src: "/js/wow.min.js" },
@@ -56,8 +48,6 @@ export default defineNuxtConfig({
   },
   css: [
     'swiper/css/bundle',
-    '@/styles/modal-video.css',
-    '@/styles/globals.css'
   ],
   webpack: {
     extractCSS: true,

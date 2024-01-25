@@ -4,9 +4,7 @@
     <Header />
     <div class="main-content" ref="MainContent">
         <Services serviceMB50 />
-        <!-- <AboutUs /> -->
         <MinimalArea />
-        <!-- <FunFacts /> -->
         <Works />
         <Clients />
         <CallToAction img="/img/patrn1.png" />
