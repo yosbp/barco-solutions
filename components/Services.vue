@@ -12,10 +12,9 @@
         </div>
       </div>
       <div class="row">
-        <div v-for="(item, index) in featuresData.slice(0, 3)" class="col-lg-4 wow fadeInLeft"
+        <div v-for="(item, index) in featuresData.slice(0, 3)" class="col-lg-4 wow fadeInLeft mb-3"
           :data-wow-delay="index == 0 ? '.5s' : index == 1 ? '.7s' : '.9s'" :key="item.id">
-          <div :class="`item-box no-curve ${serviceMB50 && index + 1 != featuresData.length - 1 ? 'mb-50' : ''
-            }`">
+          <div class="item-box no-curve">
             <span :class="`icon color-font ${item.icon}`"></span>
             <h6>{{ item.title }}</h6>
             <p>{{ item.content }}</p>

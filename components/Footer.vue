@@ -36,7 +36,7 @@
         <div class="col-lg-6">
           <div class="item">
             <div class="logo">
-              <img src="/img/logo-light.png" alt="logo" />
+              <img src="/img/logo-aguacate-light.png" alt="logo" />
             </div>
             <div class="social">
               <a href="#0">

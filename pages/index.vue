@@ -1,35 +1,35 @@
 <template>
-    <Loading />
-    <Navbar />
-    <Header />
-    <div class="main-content" ref="MainContent">
-        <Services serviceMB50 />
-        <MinimalArea />
-        <Works />
-        <Clients />
-        <CallToAction img="/img/patrn1.png" />
-        <Footer />
-    </div>
+  <Loading />
+  <Navbar />
+  <Header id="home" />
+  <div class="main-content" ref="MainContent">
+    <Services id="services" />
+    <MinimalArea />
+    <Works id="works" />
+    <Clients />
+    <CallToAction img="/img/patrn1.png" id="contact" />
+    <Footer />
+  </div>
 </template>
-  
+
 <script setup>
 //= Page Metadata
 definePageMeta({
-    layout: 'dark',
+  layout: "dark",
 });
 
 //= Page Head
 useHead({
-    titleTemplate: `%s - Desarrollo Web y Diseño Gráfico`,
+  titleTemplate: `%s - Desarrollo Web y Diseño Gráfico`,
 });
 
 const fixedSlider = ref();
 const MainContent = ref();
 
 onMounted(() => {
-    if (fixedSlider.value && MainContent.value) {
-        const slideHeight = fixedSlider.value.fixedSlider.offsetHeight;
-        MainContent.value.style.marginTop = slideHeight + "px";
-    }
+  if (fixedSlider.value && MainContent.value) {
+    const slideHeight = fixedSlider.value.fixedSlider.offsetHeight;
+    MainContent.value.style.marginTop = slideHeight + "px";
+  }
 });
 </script>

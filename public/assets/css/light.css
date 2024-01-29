@@ -1880,7 +1880,7 @@ body {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 100px;
 }
 
 .nav-scroll {
@@ -1940,7 +1940,7 @@ body {
 }
 
 .topnav .logo {
-  width: 50px;
+  width: 100px;
 }
 
 .topnav .menu-icon {
@@ -7881,7 +7881,7 @@ footer .item .logo {
 }
 
 footer .item .logo img {
-  width: 50px;
+  width: 200px;
 }
 
 footer .item .social a {
@@ -8029,7 +8029,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 100px;
   }
 
   .nav-scroll .icon-bar,
@@ -8415,7 +8415,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 40px;
+    width: 90px;
   }
 
   .hamenu .menu-links .main-menu>li {
@@ -8431,7 +8431,7 @@ footer .item .copy-right p a {
   }
 
   .topnav .logo {
-    width: 40px;
+    width: 90px;
   }
 
   .btn-curve {
