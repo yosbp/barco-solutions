@@ -5,14 +5,21 @@
         <div class="col-lg-6">
           <div class="item md-mb50">
             <div class="title">
-              <h5>Contact Us</h5>
+              <h5>Contáctanos</h5>
             </div>
             <ul>
-              <li>
+   <!--            <li>
                 <span class="icon pe-7s-map-marker"></span>
                 <div class="cont">
                   <h6>Officeal Address</h6>
                   <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                </div>
+              </li> -->
+              <li>
+                <span class="icon fab fa-whatsapp"></span>
+                <div class="cont">
+                  <h6>Escribenos</h6>
+                  <p><a href="https://api.whatsapp.com/send/?phone=584125407669&text&type=phone_number&app_absent=0">+584241417266</a></p>
                 </div>
               </li>
               <li>

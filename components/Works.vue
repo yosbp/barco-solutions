@@ -4,10 +4,10 @@
       <div class="row">
         <div class="filtering text-center col-12">
           <div class="filter">
-            <span data-filter="*" class="active"> All </span>
+            <span data-filter="*" class="active"> Todo </span>
             <span data-filter=".brand">Branding</span>
-            <span data-filter=".web">Mobile App</span>
-            <span data-filter=".graphic">Creative</span>
+            <span data-filter=".web">Página Web</span>
+            <span data-filter=".graphic">Diseño</span>
           </div>
         </div>
 

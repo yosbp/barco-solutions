@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="img">
-            <img src="/img/slid/002.jpg" alt="" />
+            <img src="/img/slid/003.webp" alt="" />
           </div>
         </div>
         <div class="col-lg-7 valign">
@@ -28,8 +28,7 @@
                 <div class="cont">
                   <h6>Desarrollo</h6>
                   <p>
-                    It is a long established fact that a reader will be
-                    distracted.
+                    Convierte Pensamientos en Soluciones Digitales.
                   </p>
                 </div>
               </li>
@@ -42,8 +41,7 @@
                 <div class="cont">
                   <h6>Diseño</h6>
                   <p>
-                    It is a long established fact that a reader will be
-                    distracted.
+                    Damos Vida a la Estética y Funcionalidad.
                   </p>
                 </div>
               </li>
