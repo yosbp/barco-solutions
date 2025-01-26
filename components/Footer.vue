@@ -8,7 +8,7 @@
               <h5>Contáctanos</h5>
             </div>
             <ul>
-   <!--            <li>
+              <!--            <li>
                 <span class="icon pe-7s-map-marker"></span>
                 <div class="cont">
                   <h6>Officeal Address</h6>
@@ -19,21 +19,19 @@
                 <span class="icon fab fa-whatsapp"></span>
                 <div class="cont">
                   <h6>Escribenos</h6>
-                  <p><a href="https://api.whatsapp.com/send/?phone=584125407669&text&type=phone_number&app_absent=0">+584241417266</a></p>
+                  <p>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=584241417266&text&type=phone_number" target="_blank"
+                      >+584241417266</a
+                    >
+                  </p>
                 </div>
               </li>
               <li>
                 <span class="icon pe-7s-mail"></span>
                 <div class="cont">
-                  <h6>Email Us</h6>
-                  <p>support@gmail.com</p>
-                </div>
-              </li>
-              <li>
-                <span class="icon pe-7s-call"></span>
-                <div class="cont">
-                  <h6>Call Us</h6>
-                  <p>+87986451666</p>
+                  <h6>Correo</h6>
+                  <p>info@barcosolucionesit.com</p>
                 </div>
               </li>
             </ul>
@@ -43,9 +41,9 @@
         <div class="col-lg-6">
           <div class="item">
             <div class="logo">
-              <img src="/img/logo-aguacate-light.png" alt="logo" />
+              <img src="/img/logo-barco-light.png" alt="logo" />
             </div>
-            <div class="social">
+            <!--             <div class="social">
               <a href="#0">
                 <i class="fab fa-facebook-f"></i>
               </a>
@@ -58,10 +56,13 @@
               <a href="#0">
                 <i class="fab fa-youtube"></i>
               </a>
-            </div>
+            </div> -->
             <div class="copy-right">
               <p>
-                © 2024. Adapted by <a target="_blank" rel="external" href="http://yosmarb.com/">Yosmar B</a>.
+                © 2024. Adapted by
+                <a target="_blank" rel="external" href="http://yosmarb.com/"
+                  >Yosmar B</a
+                >.
               </p>
             </div>
           </div>
@@ -72,5 +73,5 @@
 </template>
 
 <script setup>
-const { hideBGCOLOR } = defineProps(['hideBGCOLOR']);
+const { hideBGCOLOR } = defineProps(["hideBGCOLOR"]);
 </script>

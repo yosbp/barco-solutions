@@ -20,7 +20,7 @@ definePageMeta({
 
 //= Page Head
 useHead({
-  titleTemplate: `%s - Desarrollo Web y Diseño Gráfico`,
+  titleTemplate: `%s - Desarrollo Web y Soluciones Informáticas`,
 });
 
 const fixedSlider = ref();

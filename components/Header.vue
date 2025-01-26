@@ -10,15 +10,23 @@
         <div class="col-lg-7 valign">
           <div class="cont">
             <div class="sub-title mb-5">
-              <h6>Agencia de Servicios Digitales</h6>
+              <h6>Agencia de Servicios Digitales en Venezuela</h6>
             </div>
-            <h1 class="mb-10 fw-600">Ayudamos a Digitalizar tu Negocio.</h1>
+            <h1 class="mb-10 fw-600">Ayudamos a Optimizar tu Negocio.</h1>
             <p>
-              Ayudamos a nuestros clientes a crear productos y servicios
-              <br />
-              digitales que brinden experiencias de usuario excepcionales.
+              Brindamos a empresas soluciones y servicios digitales, desde
+              desarrollo web hasta automatización de procesos mejorando la
+              productividad.
             </p>
-            <ul>
+            <div class="text-center">
+              <a href="#contact" class="butn bord curve mt-30">
+                <span
+                  >¡Contáctanos y comienza tu transformación digital hoy!</span
+                >
+              </a>
+            </div>
+
+            <!--             <ul>
               <li>
                 <div>
                   <span class="icon pe-7s-arc">
@@ -27,9 +35,7 @@
                 </div>
                 <div class="cont">
                   <h6>Desarrollo</h6>
-                  <p>
-                    Convierte Pensamientos en Soluciones Digitales.
-                  </p>
+                  <p>Desarrollamos Sitios Web y Aplicaciones a Medida.</p>
                 </div>
               </li>
               <li>
@@ -39,13 +45,11 @@
                   </span>
                 </div>
                 <div class="cont">
-                  <h6>Diseño</h6>
-                  <p>
-                    Damos Vida a la Estética y Funcionalidad.
-                  </p>
+                  <h6>Automatizaciones</h6>
+                  <p>Simplifica tus Procesos y Aumenta tu Productividad.</p>
                 </div>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>

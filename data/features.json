@@ -1,20 +1,26 @@
 [
   {
     "id": 1,
-    "icon": "pe-7s-paint-bucket",
-    "title": "Diseño Gráfico",
-    "content": "Ofrecemos servicios de diseño gráfico para todo tipo de empresas, desde la creación de un logo hasta el diseño de un sitio web. "
-  },
-  {
-    "id": 2,
     "icon": "pe-7s-phone",
     "title": "Desarrollo Web",
     "content": "Desarrollamos sitios web a medida, con las últimas tecnologías y con un diseño moderno y atractivo."
   },
   {
-    "id": 3,
+    "id": 2,
     "icon": "pe-7s-display1",
     "title": "Automatización de Procesos",
     "content": "Automatizamos procesos de tu empresa, para que puedas ahorrar tiempo y dinero."
+  },
+  {
+    "id": 3,
+    "icon": "pe-7s-tools",
+    "title": "Asistencia Virtual",
+    "content": "Brindamos asistencia virtual para que puedas delegar tareas y dedicarte a lo que realmente importa."
+  },
+  {
+    "id": 4,
+    "icon": "pe-7s-tools",
+    "title": "Análisis de Datos",
+    "content": "Analizamos los datos de tu empresa para que puedas tomar decisiones informadas."
   }
 ]

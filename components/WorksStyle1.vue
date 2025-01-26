@@ -1,5 +1,5 @@
 <template>
-  <section class="works section-padding pb-70">
+<!--   <section class="works section-padding pb-70">
     <div class="container">
       <div class="row lg-space">
         <div class="col-lg-4 col-md-6">
@@ -85,7 +85,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
 <script setup>

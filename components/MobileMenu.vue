@@ -9,7 +9,7 @@
             </span>
             <div class="nav__logo">
               <router-link to="/" aria-label="home page" title="logo">
-                <img src="/img/logo-aguacate-light.png" alt="Image" />
+                <img src="/img/logo-barco-light.png" alt="Image" />
               </router-link>
             </div>
           </div>
@@ -30,21 +30,21 @@
                   @click="scrollToSection"
                   data-scroll-to="#services"
                 >
-                  Services
+                  Servicios
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a aria-label="close mobile menu" class="nav-link" href="/">
                   Blog
                 </a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <NuxtLink
                   class="nav-link"
                   @click="scrollToSection"
                   data-scroll-to="#works"
                 >
-                  Works
+                  Trabajos
                 </NuxtLink>
               </li>
               <li class="nav-item">
@@ -53,7 +53,7 @@
                   @click="scrollToSection"
                   data-scroll-to="#contact"
                 >
-                  Contact
+                  Contacto
                 </a>
               </li>
             </ul>

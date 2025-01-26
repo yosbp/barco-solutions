@@ -1546,16 +1546,16 @@ span:hover {
   margin-bottom: 10px;
 }
 
-.sec-head h3 {
+.sec-head h2 {
   font-size: 40px;
   font-weight: 500;
 }
 
-.sec-head h2 {
+/* .sec-head h2 {
   font-size: 70px;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
+} */
 
 .sub-title {
   position: relative;
@@ -4303,7 +4303,7 @@ span:hover {
 .services .item-box {
   padding: 80px 30px;
   text-align: center;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.10);
 }
 
 .services .item-box .icon {
@@ -4331,7 +4331,8 @@ span:hover {
   opacity: .05;
 }
 
-.services .item-box h6 {
+.services .item-box h2 {
+  font-size: 18px;
   line-height: 1.8;
   text-transform: capitalize;
   margin-bottom: 10px;
@@ -5192,6 +5193,7 @@ span:hover {
 
 .portfolio-cr .items.width2 {
   width: 25%;
+  min-height: 40%;
 }
 
 .portfolio-cr .items .cont {
@@ -7797,6 +7799,15 @@ footer .item .copy-right p a {
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
+
+  .slider-stwo .img{
+    text-align: center;
+  }
+
+  .slider-stwo .img img {
+    max-width: 400px;
+  }
+
   .navbar .navbar-collapse.show-with-trans {
     opacity: 1;
     padding: 10px 15px;
@@ -8192,6 +8203,16 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 767px) {
+
+  .slider-stwo .img{
+    padding: auto;
+    text-align: center;
+  }
+
+  .slider-stwo .img img {
+    max-width: 300px;
+  }
+
   .sm-mb10 {
     margin-bottom: 10px;
   }
@@ -8555,6 +8576,10 @@ footer .item .copy-right p a {
     width: 100% !important;
   }
 
+  .portfolio-cr .items.width2 {
+    min-height: auto;
+  }
+
   .team-crv .img-box .img.sizxl,
   .team-crv .img-box .img.sizmd,
   .team-crv .img-box .img.sizsm {
@@ -8584,6 +8609,9 @@ footer .item .copy-right p a {
 }
 
 @media screen and (max-width: 480px) {
+
+
+
   .hamenu .cont-info {
     display: none;
   }
@@ -8651,6 +8679,10 @@ footer .item .copy-right p a {
     font-size: 22px;
   }
 
+  header .cont {
+    text-align: center;
+  }
+
   .freelancre .img {
     width: 200px;
     height: 200px;
@@ -8711,6 +8743,10 @@ footer .item .copy-right p a {
   .min-area .content h4,
   .agency .content h4 {
     font-size: 28px;
+  }
+
+  .min-area img {
+    width: 90%;
   }
 
   .portfolio .gallery .items {

@@ -14,7 +14,7 @@
               La hacemos realidad!
             </h4>
             <p class="wow txt words chars splitting" data-splitting>
-              En <strong>Aguacate Studios</strong>, estamos comprometidos a
+              En <strong>Barco Soluciones IT</strong>, estamos comprometidos a
               convertir tus ideas en experiencias digitales impactantes. Nos
               apasiona dar vida a tus conceptos, creando soluciones que
               trascienden lo convencional en el mundo digital.

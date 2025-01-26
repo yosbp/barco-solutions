@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: "Aguacate Studios",
+      title: "Barco Soluciones IT",
       htmlAttrs: {
         lang: 'es'
       },
@@ -21,12 +21,12 @@ export default defineNuxtConfig({
         {
           hid: "keywords",
           name: "keywords",
-          content: "Aguacate Studios - Desarrollo Web y Diseño Gráfico",
+          content: "Barco Soluciones IT - Desarrollo Web y Soluciones Empresariales",
         },
         {
           hid: "description",
           name: "description",
-          content: "Aguacate Studios - Agencia de Desarrollo Web y Diseño Gráfico",
+          content: "Barco Soluciones IT - Agencia de Desarrollo Web y Soluciones Empresariales",
         },
         { name: "format-detection", content: "telephone=no" },
       ],

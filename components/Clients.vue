@@ -7,8 +7,8 @@
             <h6 class="wow fadeIn" data-wow-delay=".5s">Clientes</h6>
             <h3 class="wow mb-20 color-font">Nuestros Clientes</h3>
             <p>
-              En <strong>Aguacate Studios</strong>, destacamos por nuestra amplia área de
-              práctica, abarcando diseño, gráficos, branding y desarrollo web.
+              En <strong>Barco Soluciones IT</strong>, destacamos por nuestra amplia área de
+              práctica, abarcando tanto la automatización de procesos como desarrollo web.
             </p>
           </div>
         </div>
@@ -16,7 +16,7 @@
           <div>
             <div class="row bord">
               <div
-                v-for="item in clientsData.slice(0, clientsData.length / 2)"
+                v-for="item in clientsData.slice(0, clientsData.length)"
                 :key="item.id"
                 class="col-md-3 col-6 brands"
               >

@@ -8,17 +8,17 @@
       <NuxtLink to="/" class="logo">
         <img
           ref="lr"
-          src="/img/logo-aguacate-dark.png"
+          src="/img/logo-barco-dark.png"
           v-if="theme === 'light'"
           alt="logo"
         />
         <img
           ref="lr"
-          src="/img/logo-aguacate-light.png"
+          src="/img/logo-barco-light.png"
           v-else-if="theme === 'themeD'"
           alt="logo"
         />
-        <img ref="lr" src="/img/logo-aguacate-light.png" v-else alt="logo" />
+        <img ref="lr" src="/img/logo-barco-light.png" v-else alt="logo" />
       </NuxtLink>
 
       <div class="nav__uncollapsed">
@@ -28,23 +28,43 @@
           </span>
         </button>
       </div>
-      
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto nav__menu">
           <li class="nav-item">
-            <a class="nav-link" @click="scrollToSection" data-scroll-to="#home"> Home </a>
+            <a class="nav-link" @click="scrollToSection" data-scroll-to="#home">
+              Home
+            </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" @click="scrollToSection" data-scroll-to="#services"> Services </a>
+            <a
+              class="nav-link"
+              @click="scrollToSection"
+              data-scroll-to="#services"
+            >
+              Servicios
+            </a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a aria-label="close mobile menu" class="nav-link" href="/"> Blog </a>
+          </li> -->
+          <li class="nav-item">
+            <NuxtLink
+              class="nav-link"
+              @click="scrollToSection"
+              data-scroll-to="#works"
+            >
+              Trabajos
+            </NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" @click="scrollToSection" data-scroll-to="#works"> Works </NuxtLink>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" @click="scrollToSection" data-scroll-to="#contact"> Contact </a>
+            <a
+              class="nav-link"
+              @click="scrollToSection"
+              data-scroll-to="#contact"
+            >
+              Contacto
+            </a>
           </li>
         </ul>
       </div>
@@ -64,7 +84,7 @@ function scrollToSection(event) {
   event.preventDefault();
   const section = event.currentTarget.dataset.scrollTo;
   setTimeout(() => {
-    document.querySelector(section).scrollIntoView({ behavior: 'smooth' });
+    document.querySelector(section).scrollIntoView({ behavior: "smooth" });
   }, 300);
 }
 
